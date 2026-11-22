@@ -1,11 +1,11 @@
 ---
 name: frontend-interaction-spec
 description: 用于前端组件选型与交互评审，根据业务场景、数据特征或想要的界面效果，推荐呈现方式和交互。任务涉及选择或比较反馈、浮层、表单、导航、页面状态，或需要判断键盘、焦点、关闭和读屏行为时使用；出现 alert、modal、popover、toast、peek 等术语时，先判断是否属于选型任务。典型任务：保存后如何反馈、删除前是否确认、列表与详情如何并排。纯配色、排版、文案润色及既定交互的样式调整不适用。
-version: 1.2.3
+version: 1.2.4
 agent_created: true
 ---
 
-# 前端组件选型与交互行为契约
+# 前端交互选型与评审
 
 > 只做决策与评审，不产出实现代码。规则全部自包含在本包内，不引用外部路径。
 > 包结构：`references/cards/` 91 张标准/简卡 · `references/index/` 6 份指针 · `references/contracts/` 4 份横切规则 · `references/topics/` 5 份长专题。

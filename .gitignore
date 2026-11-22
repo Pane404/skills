@@ -1,0 +1,18 @@
+# Publish approved final Skill directories only.
+/*
+!/.gitignore
+!/frontend-interaction-spec/
+
+# Keep local files and release debris out of approved directories.
+**/.env
+**/.env.*
+**/.DS_Store
+**/Thumbs.db
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.zip
+**/.workbuddy/
+**/.skill-build-*/
+**/*.build-lock
+**/*.publish-state
